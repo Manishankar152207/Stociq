@@ -7,5 +7,5 @@ urlpatterns = [
     path('executed-order/', views.executed_order, name='executed-order'),
     path('get-order/', views.get_order, name='get-order'),
     path('live-ip/', views.live_ip, name='live-ip'),
-    path('logout/', views.logout, name='logout'),
+    path('logout/', views.logout, name='api-logout'),
 ]
